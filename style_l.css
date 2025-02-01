@@ -1,0 +1,59 @@
+*{
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 40%;
+    background-color: rgb(177, 171, 156);
+    padding: 0px;
+    margin: auto;
+    font-size: large;
+}
+.container h1{
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 50%;
+    padding: 5px;
+    font-size: small;
+    border: 1px solid blue;
+}
+select{
+    width: 60%;
+    padding: 5px;
+    font-size: small;
+    border: 1px solid black;
+}
+.btn{
+    border-radius: 6px;
+    background: darkgray;
+    cursor: pointer;
+}
+.log{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling. */
+    width: 100%;
+    height: 100%;
+}
+.form_{
+    padding: 0px;
+}
+.center-text {
+    width: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 

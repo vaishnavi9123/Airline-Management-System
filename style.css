@@ -1,0 +1,41 @@
+*{
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 40%;
+    background-color: grey;
+    padding: 0px;
+    margin: auto;
+    font-size: large;
+}
+.container h1{
+    text-align: center;
+}
+input{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    font-size: small;
+    border: 1px solid black;
+}
+.btn{
+    border-radius: 6px;
+    background: darkgray;
+    cursor: pointer;
+}
+.reg{
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.submit_msg{
+  padding:1px;
+}
+.form_{
+    padding: 0px;
+}

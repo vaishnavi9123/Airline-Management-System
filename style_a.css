@@ -1,0 +1,64 @@
+/* Set a light grey background for the body */
+body {
+    font-family: Arial, sans-serif; /* Choose a suitable font-family */
+    padding:30px;
+    margin:5px;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    max-width:50%;
+    background-color: rgb(41, 37, 37);
+    padding: 0px;
+    margin: auto;
+    font-size: 35px;
+    border-radius: 10px;
+}
+/* Style the heading tags with white text */
+h2{
+    color: #fff;
+    background-color: #333; /* Dark grey background for headings */
+    padding: 10px; /* Add some padding to headings */
+    border-radius: 10px;
+}
+
+/* Style the strong element with grey text */
+strong {
+    color: #777;
+}
+
+
+/* Style the paragraph (p) elements */
+p {
+    margin-bottom: 15px; /* Add margin between paragraphs */
+    line-height: 1.5; 
+    letter-spacing: 1px; 
+    color: #333; 
+    font-size: 16px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    padding:10px;
+}
+
+/* Style links with a grey color and underline on hover */
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.wel{
+    text-align: center;
+    font-size: 25px;
+}
+.reg{
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+}

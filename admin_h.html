@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon_image.png" />
+    <title>Admin Homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Add background image to the body */
+        body {
+            background-image: url('images/admin_h.jpg');
+            background-size: cover; /* Adjust the size of the background image to cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent the background image from repeating */
+            opacity: 0.8;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            border: none;
+            border-radius: 0;
+        }
+        
+        .navbar-brand {
+            color: #3e3e41;
+            font-weight: bold;
+        }
+        
+        .navbar .navbar-nav li a {
+            color: white;
+        }
+        
+        .navbar .navbar-nav li a:hover {
+            background-color: #585558;
+        }
+        
+        .airio-text {
+          position: absolute; /* Position the text absolutely within the body */
+          top: 80%; /* Position it in the vertical center */
+          right: 15%; /* Position it in the horizontal center */
+          transform: translate(50%, -50%); /* Center the text precisely */
+          color: rgb(27, 26, 26); /* Text color */
+          font-size: 100px; /* Adjust the font size */
+          font-weight: bold; /* Bold text */
+          font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Airio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Back</a></li>
+                    <li><a href="admin_h.html">Admin Home</a></li>
+                    <li><a href="flight_list.php">Flight List</a></li>
+                    <li><a href="flight_details.php">Add Flight</a></li>
+                    <li><a href="employees.php">Employee</a></li>
+                    <li><a href="feedback_view.php">View Feedbacks</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="airio-text">Airio</div>
+</body>
+</html>
+
+
